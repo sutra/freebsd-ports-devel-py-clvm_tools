@@ -1,0 +1,9 @@
+--- pyproject.toml.orig	2022-05-30 07:05:23 UTC
++++ pyproject.toml
+@@ -3,5 +3,5 @@ build-backend = "setuptools.build_meta"
+ requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
+ 
+ [tool.setuptools_scm]
+-fallback_version = "unknown"
++fallback_version = "0.4.4"
+ local_scheme = "no-local-version"
